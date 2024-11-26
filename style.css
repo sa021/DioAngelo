@@ -1,45 +1,47 @@
+.title {
+   text-align: center;
+   margin: 80px 0 50px 0;
+}
 
 
 
 /* ヘッダー */
+.header-inner {
+    text-align: center;
+}
+
+
 .logo {
-    margin: auto;
     width: 100px;
     height: 80px;
-    display: flex;
-    align-items: center;
-   
 }
 
-
-.header-menu {
-    display: block;
-    position: relative;
-    justify-content: space-between;
-    width: 100%;
-    z-index: 10;
-    
-}
-
-header ul {
+ul {
     display: flex;
-    justify-content: space-between;
     list-style: none;
-    margin: 20 ;
-    padding: auto;
+    justify-content: space-around;
+    align-items: center;
+}
 
-    
+.insta {
+    width: 80px;
+    height: 80px;
     
 }
 
-.header-menu img {
-    width: 60px;
-    height: 60px;
-}
+
+
+
+
+
+
+
 
 /* メインビジュアル */
 
 .main {
+ padding: 0;
+ margin: 0;
  max-width: 100%;  
  text-align: center; 
 
@@ -48,13 +50,17 @@ header ul {
 /* body */
 body {
     font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 100%;
+}
+   
+h2 {
+    text-align: center;
+    color: blue;
 }
 
-h2 {
-    font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+h3 {
     text-align: center;
-    color: #FFF;
-    background-color: #000;
+    color: blue;
 }
 
 p {
@@ -65,12 +71,12 @@ p {
 
 .oner-profile {
     border-radius: 50%;
-    width: 280px;
-    height: 280px;
+    width: 400px;
+    height: 400px;
 }
 
 .oner {
-    padding: 10px;
+    padding: 0 300px;
     display: flex;
     align-items: center;
     margin: 20px auto;
@@ -78,8 +84,10 @@ p {
 }
 
 .oner-coment {
-    
+    text-align: center;
+    margin: 0 100px;
 }
+
 
 /* ニュース */
 .news-inner {
@@ -89,7 +97,56 @@ p {
 
 
 /* メニュー */
+.menu-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.item img {
+    width: 80%;
+    height: 80%;
+}
+
 .item {
-    overflow-clip-margin: content-box;
-    overflow: scroll;
+    width: 25%;
+    text-align: center;
+}
+
+/* カンパニー*/
+.company-item1{
+    margin: 30px 30px ;
+    padding-left: 180px;
+}
+
+.company-item2 {
+    text-align: right;
+    padding-right: 180px;
+}
+
+/* プロセス */
+.process1 {
+    display: flex;
+    
+}
+
+
+.process-flexbox{
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+
+
+
+/* フッター */
+footer {
+    background-color: darkslateblue;
+    color: #fff;
+}
+
+footer h2 {
+    color: #fff;
 }
