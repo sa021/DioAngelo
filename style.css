@@ -1,6 +1,9 @@
+
+
+
 .title {
    text-align: center;
-   margin: 80px 0 50px 0;
+   margin-top: 200px;
 }
 
 
@@ -16,7 +19,7 @@
     height: 80px;
 }
 
-ul {
+header ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -28,13 +31,6 @@ ul {
     height: 80px;
     
 }
-
-
-
-
-
-
-
 
 
 /* メインビジュアル */
@@ -51,6 +47,13 @@ ul {
 body {
     font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     width: 100%;
+    background:repeating-linear-gradient(
+-45deg,
+#EAD9FF,
+#ccc 1px,
+#fff 0,
+#fff 29px
+);
 }
    
 h2 {
@@ -73,6 +76,7 @@ p {
     border-radius: 50%;
     width: 400px;
     height: 400px;
+    padding: 100px;
 }
 
 .oner {
@@ -85,13 +89,18 @@ p {
 
 .oner-coment {
     text-align: center;
-    margin: 0 100px;
 }
 
 
 /* ニュース */
 .news-inner {
     text-align: center;
+    list-style: none;
+}
+
+.news-inner ul {
+    list-style: none;
+
 }
 
 
@@ -105,8 +114,8 @@ p {
 }
 
 .item img {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 70%;
 }
 
 .item {
@@ -115,7 +124,7 @@ p {
 }
 
 /* カンパニー*/
-.company-item1{
+.company-item1{  
     margin: 30px 30px ;
     padding-left: 180px;
 }
@@ -123,6 +132,11 @@ p {
 .company-item2 {
     text-align: right;
     padding-right: 180px;
+}
+
+.company-item3{
+    margin: 30px 30px ;
+    padding-left: 180px;
 }
 
 /* プロセス */
@@ -135,8 +149,16 @@ p {
 .process-flexbox{
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    padding: 30px;
     }
+
+.num1,
+.num2{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 45px;
+}   
 
 
 
@@ -148,5 +170,68 @@ footer {
 }
 
 footer h2 {
+    padding: 30px 0 0 0 ;
     color: #fff;
 }
+
+.copyright {
+    color: #fff;
+    text-align: center;
+}
+
+
+@media screen {
+
+
+}
+
+
+
+
+
+
+
+/* メニュー */
+
+h1 {
+    color: dimgrey;
+    text-align: center;
+}
+
+.menu-top {
+    text-align: center;
+}
+
+.menu-session1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 300px;
+    background-color: #EAD9FF;
+}
+
+.menu-session1-num{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.menu-session1-num1{
+    padding: 3px;
+}
+
+.menu-session1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 300px;
+}
+
+.menu-session1-num2{
+   display: flex;
+   justify-content: center;
+}
+
+
