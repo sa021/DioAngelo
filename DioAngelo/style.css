@@ -1,0 +1,237 @@
+
+
+
+.title {
+   text-align: center;
+   margin-top: 200px;
+}
+
+
+
+/* ヘッダー */
+.header-inner {
+    text-align: center;
+}
+
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.insta {
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+/* メインビジュアル */
+
+.main {
+ padding: 0;
+ margin: 0;
+ max-width: 100%;  
+ text-align: center; 
+
+}
+
+/* body */
+body {
+    font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 100%;
+    background:repeating-linear-gradient(
+-45deg,
+#EAD9FF,
+#ccc 1px,
+#fff 0,
+#fff 29px
+);
+}
+   
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+p {
+    text-align: center;
+}
+
+/* オーナー挨拶 */
+
+.oner-profile {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 100px;
+}
+
+.oner {
+    padding: 0 300px;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+.oner-coment {
+    text-align: center;
+}
+
+
+/* ニュース */
+.news-inner {
+    text-align: center;
+    list-style: none;
+}
+
+.news-inner ul {
+    list-style: none;
+
+}
+
+
+
+/* メニュー */
+.menu-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.item img {
+    width: 90%;
+    height: 70%;
+}
+
+.item {
+    width: 25%;
+    text-align: center;
+}
+
+/* カンパニー*/
+.company-item1{  
+    margin: 30px 30px ;
+    padding-left: 180px;
+}
+
+.company-item2 {
+    text-align: right;
+    padding-right: 180px;
+}
+
+.company-item3{
+    margin: 30px 30px ;
+    padding-left: 180px;
+}
+
+/* プロセス */
+.process1 {
+    display: flex;
+    
+}
+
+
+.process-flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    }
+
+.num1,
+.num2{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 45px;
+}   
+
+
+
+
+/* フッター */
+footer {
+    background-color: darkslateblue;
+    color: #fff;
+}
+
+footer h2 {
+    padding: 30px 0 0 0 ;
+    color: #fff;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+}
+
+
+@media screen {
+
+
+}
+
+
+
+
+
+
+
+/* メニュー */
+
+h1 {
+    color: dimgrey;
+    text-align: center;
+}
+
+.menu-top {
+    text-align: center;
+}
+
+.menu-session1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 300px;
+    background-color: #EAD9FF;
+}
+
+.menu-session1-num{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.menu-session1-num1{
+    padding: 3px;
+}
+
+.menu-session1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 300px;
+}
+
+.menu-session1-num2{
+   display: flex;
+   justify-content: center;
+}
+
+
