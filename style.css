@@ -24,6 +24,11 @@ header ul {
     list-style: none;
     justify-content: space-around;
     align-items: center;
+    background-color: #D0B0FF;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 6px;
 }
 
 .insta {
@@ -66,7 +71,7 @@ h3 {
     color: blue;
 }
 
-p {
+.index p {
     text-align: center;
 }
 
@@ -165,7 +170,7 @@ p {
 
 /* フッター */
 footer {
-    background-color: darkslateblue;
+    background-color: #D0B0FF;
     color: #fff;
 }
 
@@ -228,6 +233,15 @@ h1 {
 
 
 /* voiceページ */
+.voice-menu {
+    background-color: #EAD9FF	;
+    margin: 0 500px;
+
+}
+
+
+
+
 
 .Form {
     margin-top: 80px;
@@ -340,15 +354,7 @@ h1 {
     background: #eaedf2;
     font-size: 18px;
   }
-  @media screen and (max-width: 480px) {
-    .Form-Item-Textarea {
-      margin-top: 18px;
-      margin-left: 0;
-      height: 200px;
-      flex: inherit;
-      font-size: 15px;
-    }
-  }
+  
   .Form-Btn {
     border-radius: 6px;
     margin-top: 32px;
@@ -372,4 +378,41 @@ h1 {
       width: 160px;
       font-size: 16px;
     }
+
+    .Form-Item-Textarea {
+        margin-top: 18px;
+        margin-left: 0;
+        height: 200px;
+        flex: inherit;
+        font-size: 15px;
+      }
   }
+
+
+
+
+  /* COMPANYページ */
+  .company-inner,
+  .company-inner2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+
+  .company-inner3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 80px;
+
+}
+
+.company-inner {
+    padding-right: 100px;
+}
+
+.school {
+    width: 50%;
+}
