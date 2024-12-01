@@ -395,8 +395,6 @@ h1 {
   .company-inner,
   .company-inner2 {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     padding: 40px;
   }
 
@@ -409,10 +407,12 @@ h1 {
 
 }
 
-.company-inner {
-    padding-right: 100px;
-}
-
 .school {
     width: 50%;
+}
+
+.map {
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
