@@ -168,21 +168,6 @@ h3 {
 
 
 
-/* フッター */
-footer {
-    background-color: #D0B0FF;
-    color: #fff;
-}
-
-footer h2 {
-    padding: 30px 0 0 0 ;
-    color: #fff;
-}
-
-.copyright {
-    color: #fff;
-    text-align: center;
-}
 
 
 
@@ -238,10 +223,6 @@ h1 {
     margin: 0 500px;
 
 }
-
-
-
-
 
 .Form {
     margin-top: 80px;
@@ -392,11 +373,30 @@ h1 {
 
 
   /* COMPANYページ */
-  .company-inner,
-  .company-inner2 {
-    display: flex;
-    padding: 40px;
-  }
+
+.company-inner {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.company-num2 {
+  margin: 100px;
+}
+
+.company-inner2 {
+  display: flex;
+  justify-content: center;
+}
+
+.company-num3 {
+  margin: 100px;
+}
+
+
+
+
+
 
   .company-inner3 {
     display: flex;
@@ -407,12 +407,30 @@ h1 {
 
 }
 
-.school {
-    width: 50%;
-}
-
 .map {
   padding-bottom: 15px;
   display: flex;
   justify-content: center;
+}
+
+
+
+
+
+
+
+/* フッター */
+footer {
+  background-color: #D0B0FF;
+  color: #fff;
+}
+
+footer h2 {
+  padding: 30px 0 0 0 ;
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
 }
