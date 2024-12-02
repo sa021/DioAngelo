@@ -27,7 +27,7 @@ header ul {
     background-color: #D0B0FF;
     color: #fff;
     font-weight: bold;
-    width: 100%;
+    box-sizing: border-box;
     padding: 6px;
 }
 
@@ -50,6 +50,7 @@ header ul {
 
 /* body */
 body {
+  margin: 0;
     font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     width: 100%;
     background:repeating-linear-gradient(
@@ -57,8 +58,10 @@ body {
 #EAD9FF,
 #ccc 1px,
 #fff 0,
-#fff 29px
-);
+#fff 29px,
+
+
+)
 }
    
 h2 {
@@ -217,11 +220,21 @@ h1 {
 
 
 
+
 /* voiceページ */
 .voice-menu {
     background-color: #EAD9FF	;
     margin: 0 500px;
 
+}
+
+.voice-menu1 {
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+.voice-menu li {
+  list-style: none;
 }
 
 .Form {
@@ -392,11 +405,6 @@ h1 {
 .company-num3 {
   margin: 100px;
 }
-
-
-
-
-
 
   .company-inner3 {
     display: flex;
