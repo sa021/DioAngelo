@@ -104,10 +104,6 @@ h3 {
     box-sizing: border-box;
 }
 
-.oner-coment {
-    text-align: center;
-}
-
 /* ニュース */
 .news-inner {
     text-align: center;
@@ -153,6 +149,10 @@ h3 {
   box-sizing: border-box;
 }
 
+img.company-item {
+  width: 35%;
+}
+
 
 /* プロセス */
 .process1 {
@@ -173,8 +173,97 @@ h3 {
     box-sizing: border-box;
     text-align: center;
     width: 50%;
-    padding: 10px;
+    padding: 25px;
 }   
+
+
+@media screen and (max-width: 480px) {
+  .logo img {
+    width: 18%;
+}
+
+.logo {
+    margin: 7px 0 7px 0;
+}
+  
+  h2 {
+    font-size: 18px;
+  }
+
+  h2, p {
+    padding: 0 35px;
+}
+
+  .oner-profile {
+    width: 80%;
+    padding: 0;
+}
+
+  .oner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.menu-inner {
+  display: flex
+;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  width: 80%;
+}
+
+.process-flexbox {
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num1, .num2 {
+  box-sizing: content-box;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.oner-coment .pc {
+  display: block;
+}
+
+
+.item p {
+  padding: 0;
+}
+
+.company-item1,
+.company-item2 {
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+img.company-item {
+  width: 80%;
+}
+
+}
+
+.pc {
+  display: none;
+}
+
+
+
+
+
 
 /* menuページ */
 h1 {
@@ -224,13 +313,50 @@ img.menu-top {
   font-weight: bold;
 }
 
+.pc2 {
+  display: none;
+}
 
 @media screen and (max-width: 480px) {
-  .item {
-    width: 25%;
-    text-align: center;
-  }
+
+  .menu-session1 {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
 }
+
+.menu-session1-num {
+  box-sizing: border-box;
+  width: auto;
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.menu-session1-num2 {
+  display: block;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  
+}
+
+li.menu-session1-num3 {
+  color: red;
+  font-size: larger;
+  padding: 20px 0px;
+}
+
+.menu-session1-num2 .pc2 {
+  display: block;
+}
+
+
+}
+
+
 
 
 
@@ -400,14 +526,32 @@ img.menu-top {
   }
 
 
+  @media screen and (max-width: 480px) {
+  .voice-menu {
+    margin: 0;
+  }
+
+  ul.voice-faq {
+    padding-right: 30px;
+}
+
+.Form-Item {
+  width: auto;
+}  
+
+   
+
+
+  }
+
 
 
   /* COMPANYページ */
 
 .company-inner {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0 20px 4%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 4%;
 }
 
 .company-num2,
@@ -421,15 +565,12 @@ img.menu-top {
   padding: 0 4% 0px 0;
 }
 
-
-
-  .company-inner3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 20px 0 20px 0;
-
+.company-inner3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
 }
 
 .map {
@@ -440,7 +581,40 @@ img.menu-top {
 }
 
 
+@media screen and (max-width: 480px) {
 
+img.school {
+  width: 100%;
+}
+
+img.company {
+  width: 100%;
+}
+
+.company-inner {
+  display: block;
+  justify-content: space-around;
+  padding: 40px 30px 0 30px;
+}
+
+.company-inner2 {
+  display: flex;
+  padding: 40px 30px 0 30px;
+  flex-direction: column-reverse;
+}
+
+
+p.pc3 ,
+p.pc4
+{
+  padding: 0;
+}
+
+.company-num2, .company-num3 {
+  margin: 0;
+}
+
+}
 
 
 
@@ -462,18 +636,3 @@ footer h2 {
 }
 
 
-@media (max-width: 600px) {
-  .table-responsive {
-      display: block;
-      overflow-x: auto;
-      white-space: nowrap;
-  }
-
-
-
-
-
-/* メニューページ */
-
-
-}
